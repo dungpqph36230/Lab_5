@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".listDanhSachSv"
+    android:gravity="center_horizontal"
+    android:padding="20sp">
+
+    <EditText
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boder_edt"
+        android:gravity="center"
+        android:hint="Danh Sách Sinh Viên"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_marginBottom="30sp"/>
+
+    <Button
+        android:id="@+id/btn_themMoi"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_btn"
+        android:text="Thêm Mới"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="100sp"
+        android:layout_marginBottom="15sp"/>
+    <ListView
+        android:id="@+id/lv_danhsach"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:listSelector="#009688" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm Sinh Viên"
+        android:textColor="#2196F3"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinner_Nv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"/>
+    <EditText
+        android:id="@+id/edt_Tensv"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="Nhập Tên Sinh Viên"
+        android:background="@drawable/boder_edt"
+        android:layout_marginBottom="20sp"/>
+    <EditText
+        android:id="@+id/edt_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="Nhập Địa Chỉ"
+        android:background="@drawable/boder_edt"/>
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sumbit"
+        android:text="SumBit"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/border_btn"/>
+
+</LinearLayout>
